@@ -1,0 +1,4 @@
+pegar pacotes externos - go get link-do-repositório
+gerar binário - go build
+rodar local - go run nome-de-arquivo.go
+remover todas as dependências que não estão sendo usadas do módulo - go mod tidy
