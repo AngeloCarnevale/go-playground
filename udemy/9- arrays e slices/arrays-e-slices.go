@@ -33,4 +33,11 @@ func main() {
 	fmt.Println(slice3)
 	fmt.Println(len(slice3)) // Tamanho do slice
 	fmt.Println(cap(slice3)) // Capacidade do slice
+
+	slice4 := make([]float32, 5)
+	fmt.Println(slice4)
+
+	slice4 = append(slice4, 10, 2)
+	fmt.Println(len(slice4))
+	fmt.Println(cap(slice4))
 }
